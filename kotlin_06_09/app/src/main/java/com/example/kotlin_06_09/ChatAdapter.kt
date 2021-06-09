@@ -28,7 +28,7 @@ class ChatAdapter: RecyclerView.Adapter<ChatAdapter.ItemViewHolder>() {
     }
 
     fun addChats(chats: ArrayList<Chat>){
-        chats.addAll(chats)
+        this.chats.addAll(chats)
         notifyDataSetChanged()
     }
 
